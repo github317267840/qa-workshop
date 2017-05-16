@@ -8,8 +8,8 @@ And /^I navigate to register$/ do
 end
 
 
-When /^I register details$/ do
-	@registerdetails.register
+When /^I register details：$/ do |table|
+	@registerdetails.register (table)
 end
 
 Then /^I will verify register successfully$/ do

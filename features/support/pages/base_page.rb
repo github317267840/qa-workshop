@@ -1,16 +1,5 @@
 # encoding: utf-8
 class Page
-    @userprofile_firstName
-    @userprofile_lastName
-    @userprofile_email
-    @userprofile_password
-    @userprofile_confirmedPassword
-    @userProfile_companyName
-    @userProfile_role
-    @userprofile_industry
-    @userprofile_employeeNum
-    @userprofile_country
-    @userprofile_state
 
     def initialize(driver)
         @driver = driver
