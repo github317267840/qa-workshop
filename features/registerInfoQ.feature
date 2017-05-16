@@ -7,15 +7,15 @@ Scenario: Consumer register
 Given I open "https://www.infoq.com/"
 When I navigate to register
 And I register details：
-|firstName|asdcdasf|
-|lastName|cissyzhaap|
-|email|xzadasdfao@126.com|
-|password|1234567|
-|confirmedPassword|1234567|
-|companyName|Thoughtworks|
-|role|Technical Team Lead|
-|industry|Aerospace|
-|employeeNum|100 or less|
-|country|United Kingdom|
-|state|Avon|
+|userprofile_firstName|asdcdasf|
+|userprofile_lastName|cissyzhaap|
+|userprofile_email|xzadasdfao@126.com|
+|userprofile_password|1234567|
+|userprofile_confirmedPassword|1234567|
+|userProfile_companyName|Thoughtworks|
+|userProfile_role|Technical Team Lead|
+|userprofile_industry|Aerospace|
+|userprofile_employeeNum|100 or less|
+|userprofile_country|United Kingdom|
+|userprofile_state|Avon|
 Then I will verify register successfully
